@@ -12,7 +12,7 @@ header{
 }
 
 nav{
-    width: 90%;
+    width: 85%;
     margin: auto;
     display: flex;
     align-items: center;
@@ -46,7 +46,6 @@ span{
 }
 
 .home h1{
-    font-weight: ;
     font-size: 2em;
     margin: 0.3em 0;
     color: #FF5733;
