@@ -6,9 +6,10 @@ body{
 
 header{
     width: 100%;
-    display: flex;
-    position: relative;
     background-color: #2e2e2e;
+    justify-content: center;
+    position: fixed;
+    top: 0;
 }
 
 nav{
@@ -59,7 +60,7 @@ span{
    justify-content: space-between;
    align-items: center;
    text-align: center;
-   padding: 5em 0;
+   padding: 3em 0;
 }
 
 .img-home{
@@ -70,7 +71,7 @@ span{
 
 
 .teste{
-    width: 50%;
-    margin: auto;
+    background-color: #252525;
+    width: 100%;
+    text-align: center;
 }
-
