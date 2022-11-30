@@ -1,5 +1,5 @@
 body {
-    background-color: #2a2a2a;
+    background-color: #202020;
     color: white;
     font-family: "Inter", sans-serif;
     letter-spacing: 1px;
@@ -7,7 +7,7 @@ body {
 
 header {
     width: 100%;
-    background-color: #2a2a2a;
+    background-color: #202020;
     justify-content: center;
     position: fixed;
     top: 0;
@@ -66,11 +66,10 @@ a {
     font-size: 2.1em;
     font-family: 'Poppins', sans-serif;
     white-space: nowrap;
-    font-weight: ;
 }
 
 .conteudo {
-    background-color: #2a2a2a;
+    background-color: #202020;
 }
 
 .conteudo .principal {
@@ -108,7 +107,7 @@ a {
 }
 
 .ui {
-    background-color: #202020;
+    background-color: #2a2a2a;
 }
 
 .home-botao {
