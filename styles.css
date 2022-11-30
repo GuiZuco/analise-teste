@@ -117,14 +117,14 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    font-size: 1em;
+    font-size: 0.9em;
     
 }
 
 .link-botao {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     border: 2px solid #FF5733;
     border-radius: 5px;
     width: 100px;
