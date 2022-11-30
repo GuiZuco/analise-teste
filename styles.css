@@ -1,10 +1,11 @@
-body{
-    letter-spacing: 1px;
-    font-family:'Inter', sans-serif;
+body {
     background-color: #2e2e2e;
+    color: white;
+    font-family: "Inter", sans-serif;
+    letter-spacing: 1px;
 }
 
-header{
+header {
     width: 100%;
     background-color: #2e2e2e;
     justify-content: center;
@@ -12,7 +13,7 @@ header{
     top: 0;
 }
 
-nav{
+nav {
     width: 85%;
     margin: auto;
     display: flex;
@@ -21,7 +22,11 @@ nav{
     height: 12vh;
 }
 
-.logo{
+nav p a {
+    color: #FF5733;
+}
+
+.logo {
     color: #FFFFFF;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
@@ -30,48 +35,104 @@ nav{
     transition: 0.5s;
 }
 
-.logo:hover{
+.logo:hover {
     color: #FF5733;
     transition: 0.5s;
 }
 
-span{
+span {
     color: #FF5733;
 }
 
-/*PRINCIPAL*/
-
-.home p{
-    font-size: 0.8em;
-    color: #FFFFFF;
+nav ul {
+    display: flex;
+    justify-content: end;
 }
 
-.home h1{
-    font-size: 2em;
-    margin: 0.3em 0;
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*=============== PRINCIPAL =============*/
+
+.principal p {
+    font-size: 0.9em;
+    margin: 1em 0;
+}
+
+.principal h1 {
     color: #FF5733;
-    font-family: 'Poppins';
+    font-size: 2.1em;
+    font-family: 'Poppins', sans-serif;
+    white-space: nowrap;
+    font-weight: ;
 }
 
-.container-home{
-   font-weight: 300;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
-   padding: 5em 0;
+.conteudo {
+    background-color: #2e2e2e;
 }
 
-.img-home{
-    order: -1;
-    width: 75%;
-    margin: 2em 0;
-}
-
-
-.teste{
-    background-color: #252525;
-    width: 100%;
+.conteudo .principal {
+    width: 50%;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal {
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 3em 0;
+}
+
+.photo {
+    order: -1;
+    width: min(350px, 75vw);
+    margin: 0 0 2rem;
+}
+
+.ui {
+    background-color: #202020;
+}
+
+.home-botao {
+    margin-top: 1.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 1em;
+    
+}
+
+.link-botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FF5733;
+    border-radius: 5px;
+    width: 100px;
+    height: 35px;
+    transition: 0.5s;
+}
+
+.link-botao:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
 }
